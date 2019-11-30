@@ -1,0 +1,142 @@
+@import '_vars';
+
+
+h1, h2, h3, h4, h5, h6, p { 
+    font-family: vendetta, serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+object {
+    width: 200px;
+    padding-bottom: 20px;
+  }
+  
+  .hidden { display: none; }
+  
+  .wrapper { 
+    margin: 0 auto; 
+  }
+
+  .mainTitle { 
+      font-size: 3rem; 
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+
+  // Legends
+
+  .legends {
+      width: 60%;
+      background-color: $color-legend;
+      font-size: 1rem;
+      margin: 0 auto;
+      padding: 10px;
+      h2 { font-size: 2rem; }
+  }
+
+  .one-boxes {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; 
+      padding: 20px 0 20px 0;
+  }
+
+  .two-boxes {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; 
+      padding: 20px 0 20px 0;
+}
+
+.three-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding: 20px 0 20px 0;
+}
+
+.box-es {
+    width: 25px;
+    height: 25px;
+    background-color: $color-es;
+}
+
+.box-ch {
+    width: 25px;
+    height: 25px;
+    background-color: $color-ch;
+}
+
+.box-wh {
+    width: 25px;
+    height: 25px;
+    background-color: $color-wh;
+}
+
+.box-wa {
+    width: 25px;
+    height: 25px;
+    background-color: $color-wa;
+}
+
+.box-ic {
+    width: 25px;
+    height: 25px;
+    background-color: $color-ic;
+}
+
+.box-va {
+    width: 25px;
+    height: 25px;
+    background-color: $color-va;
+}
+
+.box-st {
+    width: 25px;
+    height: 25px;
+    background-color: $color-st;
+}
+
+.box-ca {
+    width: 25px;
+    height: 25px;
+    background-color: $color-ca;
+}
+
+.box-mi {
+    width: 25px;
+    height: 25px;
+    background-color: $color-mi;
+}
+
+
+
+
+
+// Coffees
+.coffees {
+    width: 80%;
+    margin: 150px auto 0 auto;
+    justify-content: space-evenly;
+}
+
+.one-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+  }
+
+.two-row { margin-bottom: 150px; }
+
+.third-row { margin-bottom: 150px; }
+
+.seeRecipe {
+    width: 80px;
+    height: 20px;
+    background-color: salmon;
+    margin: 10px auto 10px auto;
+    padding: 3px;
+}
