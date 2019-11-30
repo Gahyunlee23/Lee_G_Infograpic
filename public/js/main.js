@@ -5,5 +5,6 @@
         console.log('working!');
     }
 
-    // seeButtons(button => button.addeventListener("click", popSeeRecipe));
+
+    seeButtons(button => button.addeventListener("click", popSeeRecipe));
 })();
