@@ -1,10 +1,11 @@
 (() => {
-    let seeButtons = document.querySelectorAll('.seeRecipe');
+    let seeButtons = document.querySelectorAll('.coffee');
 
     function popSeeRecipe() {
         console.log('working!');
+
     }
 
 
-    seeButtons(button => button.addeventListener("click", popSeeRecipe));
+    seeButtons.forEach(button => button.addeventListener("click", popSeeRecipe));
 })();
