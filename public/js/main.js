@@ -39,6 +39,6 @@
         })
     }
 
-    seeButtons.forEach(button => button.addeventListener("click", fetchData));
+    seeButtons.forEach(button => button.addEventListener("click", fetchData));
     
 })();
