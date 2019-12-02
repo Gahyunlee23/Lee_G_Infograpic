@@ -19,7 +19,7 @@
     function showRecipe(recipe, el) {
         seeRecipe.querySelector(".recipe-legend").textContent = `Recipe: ${recipe.legend}`;
 
-        seeRecipe.classList.add('show-popover');
+        seeRecipe.classList.add('show-recipe');
 
         el.appendChild(seeRecipe);
     }

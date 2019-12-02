@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
 
 router.get('/info/:target', (req, res) => {
  
-    let `"SELECT c.Name, GROUP_CONCAT(CONCAT(l.Legends,':', m.value)) FROM tbl_coffee c LEFT JOIN tbl_coffee_meta m ON m.coffee_id = c.id LEFT JOIN tbl_legends l ON l.id = m.legends_id GROUP BY m.coffee_id"`;
+    let `SELECT c.Name, GROUP_CONCAT(CONCAT(l.Legends,':',m.value)) as Ingredients FROM tbl_coffee c LEFT JOIN tbl_coffee_meta m ON m.coffee_id = c.id LEFT JOIN tbl_legends l ON l.id = m.legends_id GROUP BY m.coffee_id`;
   
     sql.query(query, (err, result) => {
       if (err) { console.log(err); }
