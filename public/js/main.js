@@ -1,6 +1,6 @@
 (() => {
     
-    let seeButtons = document.querySelectorAll('.coffee');
+    let seeButtons = document.querySelectorAll('.seeBut');
 
     let waypoint = new Waypoint({
         element: document.querySelector('#coffee1'),
@@ -32,7 +32,7 @@
         .then(res => res.json())
         .then(data => {
             console.log(data)
-            showPopover(data, targetElement);
+            showRecipe(data, targetElement);
         })
         .catch(function(error) {
             console.log(error);

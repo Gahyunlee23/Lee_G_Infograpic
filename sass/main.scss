@@ -142,25 +142,17 @@ object {
     background-color: white;
   }
 
-  .second-row {
-      max-width: 80%;
+
+  .column {
       display: flex;
-      flex-direction: row;
-      margin: 0 auto;
+      flex-direction: column;
   }
 
-  .third-row {
-      max-width: 80%;
+  .row {
       display: flex;
       flex-direction: row;
+      padding-left: 10px;
   }
-
-  .fourth-row {
-      max-width: 80%;
-      display: flex;
-      flex-direction: row;
-  }
-
 
 .show-recipe { display: block; }
 
