@@ -30,7 +30,7 @@ In late 2019, four friends got together and formed a design company that wanted 
 
 Contributors names and contact info
 
-* Gahyun(Stella) Lee[g_lee89360@fanshaweonline.ca]
+* [Gahyun(Stella) Lee](g_lee89360@fanshaweonline.ca)
 
 ## License
 
