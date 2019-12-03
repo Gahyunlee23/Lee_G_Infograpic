@@ -1,7 +1,7 @@
-![Terra Studio Logo](images/logo/bootcamp-terra_studios-final_logo_final copy.svg)
+
 <!-- Format: ![Terra Studios Logo Header] -->
 
-# Bootcamp Project: Terra Studio
+# Infographic Poster
 
 This is where you put a small description of what the project is.
 
