@@ -7,10 +7,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 300;
 }
 
-object {
-    width: 200px;
-    padding-bottom: 20px;
-  }
+object { max-width: 250px; }
   
   .hidden { display: none; }
   
@@ -117,17 +114,15 @@ object {
 
 .coffee-group {
     margin-top: 100px;
-    div { 
-        width: 200px; 
-        margin-left: 30px;
-    }
+    text-align: center;
+    div { width: 200px; }
 }
 
 .seeBut { 
     text-decoration: none;
     width: 80px;
     height: 45px;
-    margin: 0 0 100px 50px; 
+    margin-bottom: 100px;
     background-color: #9555af;
     color: #fff;
     text-align: center;
@@ -143,16 +138,6 @@ object {
   }
 
 
-  .column {
-      display: flex;
-      flex-direction: column;
-  }
-
-  .row {
-      display: flex;
-      flex-direction: row;
-      padding-left: 10px;
-  }
 
 .show-recipe { display: block; }
 

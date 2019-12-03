@@ -1,5 +1,13 @@
 @import '_vars';
 
 @media screen and (min-width: $tablet-size) {
-    
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
 }
