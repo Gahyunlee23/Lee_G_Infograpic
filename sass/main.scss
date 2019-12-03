@@ -7,13 +7,9 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 300;
 }
 
-object { max-width: 250px; }
+object { width: 250px; }
   
   .hidden { display: none; }
-  
-  .wrapper { 
-    margin: 0 auto; 
-  }
 
   .mainTitle { 
       font-size: 3rem; 
@@ -27,9 +23,9 @@ object { max-width: 250px; }
 
   .legends {
       width: 60%;
-      background-color: $color-legend;
+      border: 3px solid $color-legend;
       font-size: 1rem;
-      margin: 0 auto;
+      margin: 0 auto 100px auto;
       padding: 10px;
       h2 { font-size: 2rem; }
   }
@@ -113,16 +109,27 @@ object { max-width: 250px; }
 // Coffees
 
 .coffee-group {
-    margin-top: 100px;
-    text-align: center;
-    div { width: 200px; }
+    width: 80%;
+    margin: 0 auto;
+    div { margin-bottom: 150px; }
+}
+
+
+#co-es { margin-bottom: 70px; }
+
+.co-sec {
+    display: flex;
+    flex-direction: column;
+    button {
+        margin: 0 auto;
+    }
 }
 
 .seeBut { 
     text-decoration: none;
     width: 80px;
     height: 45px;
-    margin-bottom: 100px;
+    // margin: 0 60px 100px 0;
     background-color: #9555af;
     color: #fff;
     text-align: center;
@@ -137,9 +144,10 @@ object { max-width: 250px; }
     background-color: white;
   }
 
-
-
-.show-recipe { display: block; }
+.show-recipe { 
+    display: block; 
+    margin-top: 10px;
+}
 
 
 

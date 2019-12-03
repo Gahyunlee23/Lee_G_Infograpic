@@ -1,13 +1,14 @@
 @import '_vars';
 
-@media screen and (min-width: $tablet-size) {
-    .column {
-        display: flex;
-        flex-direction: column;
-    }
+@media screen and (min-width: 23.5rem) {
+    .coffee-group div { margin-bottom: 100px; }
 
     .row {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
+
+    .mainTitle { font-size: 4rem; }
 }

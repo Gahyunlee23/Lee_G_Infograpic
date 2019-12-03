@@ -18,7 +18,8 @@
       });
 
     function showRecipe(recipe, el) {
-        seeRecipe.querySelector(".recipe-legend").textContent = `Name: ${recipe.Name}, Recipe: ${recipe.Ingredients}`;
+        seeRecipe.querySelector(".recipe-name").textContent = `Name: ${recipe.Name}`;
+        seeRecipe.querySelector(".recipe-ingredients").textContent = `Recipe: ${recipe.Ingredients}`;
 
         seeRecipe.classList.add('show-recipe');
 

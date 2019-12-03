@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,oCAAqC,CACjC,QAAS,CACL,SAAS,CAAE,MAAM,CACjB,MAAM,CAAE,MAAM,CAGlB,OAAQ,CACJ,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CAG1B,IAAK,CACD,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG",
+"sources": ["../../../sass/modules/desktop.scss"],
+"names": [],
+"file": "desktop.css"
+}

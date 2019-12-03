@@ -1,0 +1,18 @@
+@import '_vars';
+
+@media screen and (min-width: 48rem) {
+    .wrapper {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+}
